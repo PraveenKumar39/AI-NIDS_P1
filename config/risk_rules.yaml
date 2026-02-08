@@ -1,0 +1,17 @@
+risk_mapping:
+  BENIGN:
+    base_risk: 5
+    max_risk: 20
+    severity: "Safe"
+  DDoS:
+    base_risk: 90
+    max_risk: 100
+    severity: "Critical"
+  PortScan:
+    base_risk: 50
+    max_risk: 70
+    severity: "High"
+default:
+  base_risk: 50
+  max_risk: 50
+  severity: "Medium"

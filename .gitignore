@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+env/
+
+# Data (Don't commit large datasets)
+data/
+!data/.gitkeep
+
+# Models (Exclude mostly, but keep production models)
+models/
+!models/rf_model.pkl
+!models/label_encoder.pkl
+
+# Logs
+*.log
+reports/
+
+# IDE
+.vscode/
+.idea/
