@@ -42,7 +42,7 @@ def test_prediction():
 
 if __name__ == "__main__":
     print("Waiting for API to start...")
-    time.sleep(5) # Give it time to boot
+    time.sleep(10) # Give it time to boot
     
     health = test_health()
     if not health:
